@@ -1,63 +1,63 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Fitness Calendar//ZH//
+PRODID:-//Fitness Coach//Workout Plan//CN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:💪 健身训练计划
-X-WR-CALDESC:力量训练 A/B/C 周一三五循环
+X-WR-CALNAME:健身计划
 X-WR-TIMEZONE:Asia/Shanghai
+
 BEGIN:VTIMEZONE
 TZID:Asia/Shanghai
 BEGIN:STANDARD
-DTSTART:19700101T000000
 TZOFFSETFROM:+0800
 TZOFFSETTO:+0800
 TZNAME:CST
+DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:fitness-A-20260302@gym
-DTSTART;TZID=Asia/Shanghai:20260302T190000
-DTEND;TZID=Asia/Shanghai:20260302T210000
+UID:workout-A-20260302@fitness
+DTSTART;TZID=Asia/Shanghai:20260302T183000
+DTEND;TZID=Asia/Shanghai:20260302T200000
 RRULE:FREQ=WEEKLY;BYDAY=MO
-SUMMARY:💪 训练A｜胸+肩+三头（推系列）
-DESCRIPTION:🏋️ 力量训练 A — 胸 + 肩 + 三头（推系列）\n\n1️⃣ 蝴蝶机夹胸\n   重量：15kg - 20kg\n   组数：3组 x 12次\n   💬 挺胸，感受胸部中间发力，别用手死捏。\n\n2️⃣ 上斜卧推\n   重量：空杆 或 10kg - 20kg\n   组数：3组 x 12次\n   💬 针对上胸，让你穿衬衫更有型。\n\n3️⃣ 坐姿推肩\n   重量：10kg - 15kg\n   组数：3组 x 12次\n   💬 练肩膀的王牌动作，注意背部贴紧。\n\n4️⃣ 三头下压\n   重量：10kg - 15kg\n   组数：3组 x 15次\n   💬 改善手臂后侧松弛。\n\n🚶 有氧：坡度走 20分钟
-COLOR:RED
+SUMMARY:💪 训练A — 胸+三头+腿
+DESCRIPTION:训练A：胸 + 三头 + 腿\n\n1. 常规卧推 5–10kg｜3×12\n2. 蝴蝶机夹胸 10kg｜3×12\n3. 三头下压 25kg｜3×12\n4. 哈克深蹲 轻重量｜3×12\n5. 坐姿腿屈伸 轻重量｜3×15\n6. 有氧 15分钟\n\n胸练完再练三头收尾，不要力竭
+LOCATION:健身房
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:30分钟后开始训练A！💪
+DESCRIPTION:30分钟后开始训练 💪
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:fitness-B-20260304@gym
-DTSTART;TZID=Asia/Shanghai:20260304T190000
-DTEND;TZID=Asia/Shanghai:20260304T210000
+UID:workout-B-20260304@fitness
+DTSTART;TZID=Asia/Shanghai:20260304T183000
+DTEND;TZID=Asia/Shanghai:20260304T200000
 RRULE:FREQ=WEEKLY;BYDAY=WE
-SUMMARY:💪 训练B｜背+核心（拉系列）
-DESCRIPTION:🏋️ 力量训练 B — 背 + 核心（拉系列）\n\n1️⃣ 高位下拉\n   重量：20kg - 30kg\n   组数：3组 x 12次\n   💬 挺胸，往锁骨方向拉，不要耸肩。\n\n2️⃣ 坐姿器械划船\n   重量：15kg - 25kg\n   组数：3组 x 12次\n   💬 想象背部中间有一张纸要夹紧。\n\n3️⃣ 器械二头弯举\n   重量：5kg - 10kg\n   组数：3组 x 12次\n   💬 练手臂前侧，保持身体不要前后晃动。\n\n4️⃣ 核心训练\n   动作：平板支撑 3组\n   💬 对减脂极其重要！\n\n🚴 有氧：坡度走 20分钟
-COLOR:BLUE
+SUMMARY:💪 训练B — 背+二头+腿后侧
+DESCRIPTION:训练B：背 + 二头 + 腿后侧\n\n1. 高位下拉 30–40kg｜3×12\n2. 坐姿器械划船 30–40kg｜3×12\n3. 器械二头弯举 10–15kg｜3×12\n4. 倒蹬 轻重量｜3×12\n5. 俯身腿弯举 轻重量｜3×15\n6. 有氧 15分钟\n\n背练完二头自然疲劳，二头做收尾即可
+LOCATION:健身房
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:30分钟后开始训练B！💪
+DESCRIPTION:30分钟后开始训练 💪
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:fitness-C-20260306@gym
-DTSTART;TZID=Asia/Shanghai:20260306T190000
-DTEND;TZID=Asia/Shanghai:20260306T210000
+UID:workout-C-20260306@fitness
+DTSTART;TZID=Asia/Shanghai:20260306T183000
+DTEND;TZID=Asia/Shanghai:20260306T200000
 RRULE:FREQ=WEEKLY;BYDAY=FR
-SUMMARY:💪 训练C｜臀腿（下肢系列）
-DESCRIPTION:🏋️ 力量训练 C — 臀腿（下肢系列）\n\n1️⃣ 倒蹬\n   重量：40kg - 60kg\n   组数：3组 x 12次\n   💬 膝盖千万不要完全锁死蹬直！留一点点弧度，保护关节。\n\n2️⃣ 坐姿腿屈伸\n   重量：15kg - 25kg\n   组数：3组 x 15次\n   💬 勾起脚尖，感受大腿前侧的灼烧感。\n\n3️⃣ 坐姿髋外展\n   重量：20kg - 30kg\n   组数：3组 x 15次\n   💬 对久坐人群非常友好，能激活臀部。\n\n🏃 有氧：椭圆机 15分钟
-COLOR:GREEN
+SUMMARY:💪 训练C — 肩+臀腿+有氧
+DESCRIPTION:训练C：肩 + 臀腿 + 有氧加强\n\n1. 坐姿推肩 5–10kg｜3×12\n2. 侧平举 5kg｜3×15\n3. 反向蝴蝶机飞鸟 10–15kg｜3×15\n4. 哈克深蹲 轻重量｜3×12\n5. 坐姿髋外展 轻重量｜3×20\n6. 有氧 20分钟\n\n肩部动作三头参与少，不额外加手臂
+LOCATION:健身房
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:30分钟后开始训练C！💪
+DESCRIPTION:30分钟后开始训练 💪
 END:VALARM
 END:VEVENT
 
