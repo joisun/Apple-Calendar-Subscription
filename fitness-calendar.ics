@@ -17,47 +17,47 @@ END:STANDARD
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:workout-A-20260302@fitness
-DTSTART;TZID=Asia/Shanghai:20260302T183000
-DTEND;TZID=Asia/Shanghai:20260302T200000
+UID:workout-A-20260309@fitness
+DTSTART;TZID=Asia/Shanghai:20260309T183000
+DTEND;TZID=Asia/Shanghai:20260309T194500
 RRULE:FREQ=WEEKLY;BYDAY=MO
-SUMMARY:💪 训练A — 胸+三头+腿
-DESCRIPTION:训练A：胸 + 三头 + 腿\n\n1. 常规卧推 5–10kg｜3×12\n2. 蝴蝶机夹胸 10kg｜3×12\n3. 三头下压 25kg｜3×12\n4. 哈克深蹲 轻重量｜3×12\n5. 坐姿腿屈伸 轻重量｜3×15\n6. 有氧 15分钟\n\n胸练完再练三头收尾，不要力竭
+SUMMARY:训练A — 胸+背+腿
+DESCRIPTION:训练A（全身）\n\n1. 哈克深蹲｜4×8–10\n2. 常规卧推｜4×8–10\n3. 高位下拉｜4×10–12\n4. 坐姿推肩｜3×10\n5. 三头下压｜3×12\n\n目标：稳定动作，不要力竭\n每组间休息 60–90 秒
 LOCATION:健身房
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:30分钟后开始训练 💪
+DESCRIPTION:30分钟后开始训练
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:workout-B-20260304@fitness
-DTSTART;TZID=Asia/Shanghai:20260304T183000
-DTEND;TZID=Asia/Shanghai:20260304T200000
+UID:workout-B-20260311@fitness
+DTSTART;TZID=Asia/Shanghai:20260311T183000
+DTEND;TZID=Asia/Shanghai:20260311T194500
 RRULE:FREQ=WEEKLY;BYDAY=WE
-SUMMARY:💪 训练B — 背+二头+腿后侧
-DESCRIPTION:训练B：背 + 二头 + 腿后侧\n\n1. 高位下拉 30–40kg｜3×12\n2. 坐姿器械划船 30–40kg｜3×12\n3. 器械二头弯举 10–15kg｜3×12\n4. 倒蹬 轻重量｜3×12\n5. 俯身腿弯举 轻重量｜3×15\n6. 有氧 15分钟\n\n背练完二头自然疲劳，二头做收尾即可
+SUMMARY:训练B — 背+胸+腿
+DESCRIPTION:训练B（全身）\n\n1. 坐姿腿屈伸｜4×10–12\n2. 坐姿器械划船｜4×8–10\n3. 上斜卧推｜4×8–10\n4. 侧平举｜3×12–15\n5. 坐姿髋外展｜3×15\n\n注意控制节奏\n离力竭保留2次
 LOCATION:健身房
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:30分钟后开始训练 💪
+DESCRIPTION:30分钟后开始训练
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:workout-C-20260306@fitness
-DTSTART;TZID=Asia/Shanghai:20260306T183000
-DTEND;TZID=Asia/Shanghai:20260306T200000
+UID:workout-C-20260313@fitness
+DTSTART;TZID=Asia/Shanghai:20260313T183000
+DTEND;TZID=Asia/Shanghai:20260313T194500
 RRULE:FREQ=WEEKLY;BYDAY=FR
-SUMMARY:💪 训练C — 肩+臀腿+有氧
-DESCRIPTION:训练C：肩 + 臀腿 + 有氧加强\n\n1. 坐姿推肩 5–10kg｜3×12\n2. 侧平举 5kg｜3×15\n3. 反向蝴蝶机飞鸟 10–15kg｜3×15\n4. 哈克深蹲 轻重量｜3×12\n5. 坐姿髋外展 轻重量｜3×20\n6. 有氧 20分钟\n\n肩部动作三头参与少，不额外加手臂
+SUMMARY:训练C — 腿+背+胸
+DESCRIPTION:训练C（全身）\n\n1. 哈克深蹲｜4×8–10\n2. 俯身划船｜4×8–10\n3. 双杠臂屈伸｜4×尽力\n4. 蝴蝶机夹胸｜3×12\n5. 三头下压｜3×12\n\n保持动作标准\n优先控制动作
 LOCATION:健身房
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:30分钟后开始训练 💪
+DESCRIPTION:30分钟后开始训练
 END:VALARM
 END:VEVENT
 
